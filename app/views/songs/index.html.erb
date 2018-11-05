@@ -1,3 +1,5 @@
+<%=binding.pry %>
+
 <ul>
 <% @songs.each do |song| %>
   <li><%= link_to song.title, song_path(song) %></li>
